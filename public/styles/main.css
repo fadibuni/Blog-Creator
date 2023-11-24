@@ -1,0 +1,77 @@
+body {
+  background: #994d1c;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  color: #6b240c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-size: 3.5rem;
+  margin: 10px;
+  width: 50%;
+  border: 3px solid #e48f45;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  font-size: 0.9rem;
+  background: #E48F45;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100px; 
+  height: 50px; 
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+textarea {
+  width: 100%; /* Makes the textarea take the full width of its parent container */
+  max-width: 100%; /* Ensures it doesn't overflow its container */
+  min-width: 100px; /* Minimum width, adjust as needed */
+  box-sizing: border-box; /* Includes padding and border in the width */
+}
+.post {
+  width: 50%;
+  margin: 10px;
+  border: 3px solid #e48f45;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.new-post {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
